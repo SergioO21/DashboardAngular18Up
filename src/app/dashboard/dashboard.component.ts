@@ -1,6 +1,6 @@
 import { Component } from "@angular/core";
 import { RouterModule } from "@angular/router";
-import { SideMenuComponent } from "../shared";
+import { SideMenuComponent } from "@shared";
 
 @Component({
   standalone: true,
