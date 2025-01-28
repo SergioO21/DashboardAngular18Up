@@ -7,7 +7,6 @@ import { switchMap } from "rxjs";
 import { UsersService } from "@services";
 
 @Component({
-  standalone: true,
   imports: [TitleComponent],
   template: `
     <app-title [title]="titleLabel()" />

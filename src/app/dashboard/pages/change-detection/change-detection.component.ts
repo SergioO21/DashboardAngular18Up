@@ -8,7 +8,6 @@ import { TitleComponent } from "@shared";
 import { CommonModule } from "@angular/common";
 
 @Component({
-  standalone: true,
   imports: [TitleComponent, CommonModule],
   changeDetection: ChangeDetectionStrategy.OnPush,
   template: `

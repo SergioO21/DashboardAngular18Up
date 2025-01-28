@@ -4,7 +4,6 @@ import { TitleComponent } from "@shared";
 type Grade = "A" | "B" | "C";
 
 @Component({
-  standalone: true,
   imports: [TitleComponent],
   templateUrl: "./control-flow.component.html",
   styles: ``,

@@ -5,7 +5,6 @@ import { UsersService } from "@services";
 import { TitleComponent } from "@shared";
 
 @Component({
-  standalone: true,
   imports: [TitleComponent, RouterModule],
   templateUrl: "./users.component.html",
   styles: ``,

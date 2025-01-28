@@ -3,7 +3,6 @@ import { CommonModule } from "@angular/common";
 
 @Component({
   selector: "heavy-loader-slow",
-  standalone: true,
   imports: [CommonModule],
   template: `
     <section [ngClass]="['w-full h-[600px]', cssClass]">

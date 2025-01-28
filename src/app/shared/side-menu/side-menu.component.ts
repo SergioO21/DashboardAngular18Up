@@ -4,7 +4,6 @@ import { RouterModule } from "@angular/router";
 
 @Component({
   selector: "side-menu",
-  standalone: true,
   imports: [RouterModule],
   templateUrl: "./side-menu.component.html",
   styles: ``,
