@@ -1,3 +1,4 @@
+export * from "./product.interface";
 export * from "./state.interface";
 export * from "./support.interface";
 export * from "./user-response.interface";
