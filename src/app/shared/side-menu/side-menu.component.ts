@@ -12,7 +12,7 @@ export class SideMenuComponent {
   menuItems = routes
     .map((route) => route.children ?? [])
     .flat()
-    .filter((route) => route && route.path)
+    .filter((route) => route && route.path && route.path !== "**")
     .filter((route) => !route.path?.includes(":"));
 
   constructor() {}
