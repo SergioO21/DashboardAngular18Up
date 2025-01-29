@@ -78,7 +78,13 @@ export const routes: Routes = [
   },
   {
     path: "",
-    redirectTo: "/dashboard",
+    redirectTo: (route) => {
+      if (route.url.length === 1 && route.url[0].path === "material") {
+        return "/dashboard/material";
+      }
+
+      return "/dashboard";
+    },
     pathMatch: "full",
   },
 ];
